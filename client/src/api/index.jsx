@@ -1,7 +1,7 @@
 import axios from "axios"; 
 
 const API = axios.create({
-  baseURL: "http://localhost:8000/api/",
+  baseURL: "server-main-production-0cf9.up.railway.app/",
 });
 
 export const UserSignUp = async (data) => API.post("/user/signup", data);
